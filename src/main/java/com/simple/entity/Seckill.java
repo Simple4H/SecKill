@@ -19,6 +19,18 @@ public class Seckill {
 
     private Date createTime;
 
+    public Seckill(long seckillId, String name, int number, Date startTime, Date endTime, Date createTime) {
+        this.seckillId = seckillId;
+        this.name = name;
+        this.number = number;
+        this.startTime = startTime;
+        this.endTime = endTime;
+        this.createTime = createTime;
+    }
+
+    public Seckill() {
+    }
+
     public long getSeckillId() {
         return seckillId;
     }
